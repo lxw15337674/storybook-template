@@ -9,18 +9,12 @@
     "build-storybook": "storybook build",
     "storybook": "start-storybook -p 6006 -s public",
     "serve-storybook": "serve storybook-static",
-    "build": "microbundle  --jsx"
+    "build": "father build"
   },
-  "main": "src/index.tsx",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "source": "src/index.tsx",
-  "umd:main": "dist/foo.umd.js",
-  "module": "dist/foo.mjs",
-  "exports": {
-    "types": "./dist/foo.d.ts",
-    "require": "./dist/foo.js",
-    "default": "./dist/foo.modern.mjs"
-  },
-  "types": "dist/foo.d.ts",
+  "types": "dist/esm/index.d.ts",
   "license": "ISC",
   "devDependencies": {
     "@storybook/addon-essentials": "^7.2.1",
@@ -31,10 +25,10 @@
     "@storybook/react": "^7.2.1",
     "@storybook/react-vite": "^7.2.1",
     "@storybook/testing-library": "^0.2.0",
-    "microbundle": "^0.15.1",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "storybook": "^7.2.1"
+    "storybook": "^7.2.1",
+    "father": "^4.3.0"
   }
 }
