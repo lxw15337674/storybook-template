@@ -2,17 +2,25 @@
   "name": "ww-components",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "pnpm run storybook",
     "start": "pnpm run storybook",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-storybook": "storybook build",
     "storybook": "start-storybook -p 6006 -s public",
-    "serve-storybook": "serve storybook-static"
+    "serve-storybook": "serve storybook-static",
+    "build": "microbundle src/index.ts --jsx"
   },
-  "keywords": [],
-  "author": "",
+  "main": "src/index.tsx",
+  "source": "src/index.tsx",
+  "umd:main": "dist/foo.umd.js",
+  "module": "dist/foo.mjs",
+  "exports": {
+    "types": "./dist/foo.d.ts",
+    "require": "./dist/foo.js",
+    "default": "./dist/foo.modern.mjs"
+  },
+  "types": "dist/foo.d.ts",
   "license": "ISC",
   "devDependencies": {
     "@storybook/addon-essentials": "^7.2.1",
@@ -28,4 +36,4 @@
     "react-dom": "^18.2.0",
     "storybook": "^7.2.1"
   }
-},
+}
