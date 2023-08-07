@@ -1,6 +1,6 @@
 {
-  "name": "ww-components",
-  "version": "1.0.0",
+  "name": "www-components",
+  "version": "0.0.1",
   "description": "",
   "scripts": {
     "dev": "pnpm run storybook",
@@ -16,6 +16,9 @@
   "source": "src/index.tsx",
   "types": "dist/esm/index.d.ts",
   "license": "ISC",
+  "engines": {
+    "node": ">=12.0.0"
+  },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.2.1",
     "@storybook/addon-interactions": "^7.2.1",

@@ -5,6 +5,10 @@ export default defineConfig({
     input: 'src',
     ignores: ['**/*.stories.*', '**/*.test.*', '**/*.mdx'],
   },
+  cjs: {
+    input: 'src',
+    ignores: ['**/*.stories.*', '**/*.test.*', '**/*.mdx'],
+  },
   prebundle: {
     deps: {}
   },
