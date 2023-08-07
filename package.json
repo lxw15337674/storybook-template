@@ -7,8 +7,9 @@
     "dev": "pnpm run storybook",
     "start": "pnpm run storybook",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "storybook": "start-storybook -p 6006 -s public",
+    "serve-storybook": "serve storybook-static"
   },
   "keywords": [],
   "author": "",
@@ -27,4 +28,4 @@
     "react-dom": "^18.2.0",
     "storybook": "^7.2.1"
   }
-}
+},
