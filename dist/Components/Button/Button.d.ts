@@ -1,3 +1,4 @@
+import React from "react";
 import "./button.css";
 export interface ButtonProps {
     /**
@@ -18,5 +19,5 @@ export interface ButtonProps {
      **/
     label: string;
 }
-export declare const Button: ({ primary, backgroundColor, size, label, ...props }: ButtonProps) => JSX.Element;
+export declare const Button: ({ primary, backgroundColor, size, label, ...props }: ButtonProps) => React.JSX.Element;
 export default Button;
