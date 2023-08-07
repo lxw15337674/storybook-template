@@ -26,6 +26,8 @@
     "rootDir": "./src",
     "outDir": "./dist/types",
     "emitDeclarationOnly": true,
+    "jsxFragmentFactory": "Fragment",
+    "jsxFactory": "React.createElement",
     "paths": {
       "@qunhe/budget-components": [
         "src"
