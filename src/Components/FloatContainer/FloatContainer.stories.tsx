@@ -24,7 +24,7 @@ const StyledContent = styled.div`
   border: 1px solid red;
   width: 100px;
   height: 100px;
-`;
+`; 
 
 export function basicDemo() {
   const [visible, setVisible] = useState(true);
