@@ -3,7 +3,7 @@ import './button.css';
 
 export interface ButtonProps {
   /**
-   * Is this the principal c23123123123123123?
+   * Is this the pri123123123ncipal c2312312312312312311123?
    */
   primary: boolean;
   /**

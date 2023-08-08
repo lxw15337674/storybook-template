@@ -46,7 +46,7 @@ export function basicDemo() {
           setVisible(false);
         }}
       >
-        <StyledContent>点击外层会关闭</StyledContent>
+        <StyledContent>点击外层会关闭123</StyledContent>
       </FloatContainer>
     </div>
   );
