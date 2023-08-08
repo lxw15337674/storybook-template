@@ -6,7 +6,7 @@
     "dev": "pnpm run storybook ",
     "start": "pnpm run storybook",
     "build-storybook": "storybook build",
-    "storybook": "storybook dev  -p 6006 -s public",
+    "storybook": "storybook dev -p 6006 -s public",
     "serve-storybook": "serve storybook-static",
     "build": "father build",
     "publish": " np --no-cleanup --no-tests"
@@ -53,8 +53,12 @@
     "np": "^8.0.4",
     "prettier": "^3.0.1",
     "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "storybook": "^7.2.1"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "storybook": "^7.2.1",
+    "styled-components": "^6.0.7"
+  },
+  "dependencies": {
+    "wwhooks": "^2.0.2"
   }
 }
