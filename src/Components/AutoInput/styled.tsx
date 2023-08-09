@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { AutoInputProps } from './types';
 
 export const StyledAutoInput = styled.div<AutoInputProps>`
-  border: 1px solid red;
+  border: 1px solid #ccc;
   position: relative;
   display: inline-block;
   width: ${(props) => props.width};

@@ -6,11 +6,8 @@ import styled from 'styled-components';
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction#default-export 
 export default {
-  title: '功能组件/FloatContainer',
+  title: '功能组件/FloatContainer 悬浮容器',
   component: FloatContainer,
-  parameters: {
-    componentSubtitle: '悬浮容器',
-  },
   tags: ['autodocs'],
 } as Meta<typeof FloatContainer>;
 
