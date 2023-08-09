@@ -9,8 +9,8 @@ export const StyledAutoInput = styled.div<AutoInputProps>`
   font-size: 14px;
   min-height: 19px;
   padding: 2px;
-  max-height: 100px;
   box-sizing: border-box;
+  overflow: hidden;
   span {
     visibility: hidden;
     height: 100px;
@@ -41,7 +41,8 @@ export const StyledAutoInput = styled.div<AutoInputProps>`
     top: 0;
     bottom: 0;
     padding: inherit;
-    border: none;
+    border: 0;
+
     font-size: inherit;
     &:focus-visible {
       outline: none;

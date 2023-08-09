@@ -8,31 +8,20 @@ import AutoInput from './AutoInput';
  * 3. 默认占据整行
  */
 export default {
-  title: '功能组件/AutoInput 输入框',
+  title: '功能组件/AutoInput 自适应输入框',
   component: AutoInput,
   tags: ['autodocs'],
 } as Meta<typeof AutoInput>;
 
 export const Primary = {
   args: {
-    defaultValue: 'content123',
+    defaultValue: '123',
   },
 };
 /**
  *  行内组件
  */
 export function inlineInput() {
-  return (
-    <div>
-      <AutoInput style={{ width: '200px' }} />
-    </div>
-  );
-}
-
-/**
- *  块组件
- */
-export function BlockInput() {
   return (
     <div>
       <AutoInput style={{ width: '200px' }} />
