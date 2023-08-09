@@ -7,17 +7,20 @@ export const StyledAutoInput = styled.div<AutoInputProps>`
   display: inline-block;
   width: ${(props) => props.width};
   font-size: 14px;
-  min-height: 12px;
+  min-height: 19px;
   padding: 2px;
+  max-height: 100px;
+  box-sizing: border-box;
   span {
+    visibility: hidden;
+    height: 100px;
     width: auto;
     display: block;
     word-wrap: break-word;
     white-space: normal;
     max-height: inherit;
-    min-height: 18px;
+    min-height: inherit;
     font-family: inherit;
-    visibility: hidden;
     padding-right: 0;
     height: inherit;
     overflow: auto;
@@ -29,8 +32,8 @@ export const StyledAutoInput = styled.div<AutoInputProps>`
     height: inherit;
     min-height: inherit;
     min-width: 10px;
+    box-sizing: border-box;
     resize: none;
-    /* height: 100px; */
     line-height: inherit;
     position: absolute;
     overflow: visible;
@@ -42,10 +45,6 @@ export const StyledAutoInput = styled.div<AutoInputProps>`
     font-size: inherit;
     &:focus-visible {
       outline: none;
-    }
-    &::-webkit-scrollbar {
-      width: 0px;
-      height: 0px;
     }
   }
 `;

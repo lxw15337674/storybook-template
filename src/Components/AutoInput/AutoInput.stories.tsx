@@ -23,7 +23,7 @@ export const Primary = {
  */
 export function inlineInput() {
   return (
-    <div style={{ height: 1000 }}>
+    <div>
       <AutoInput style={{ width: '200px' }} />
     </div>
   );
