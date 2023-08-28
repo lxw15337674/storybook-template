@@ -4,3 +4,4 @@ export * from "./Components/AutoInput";
 export * from "./Components/Item";
 export * from "./Components/Cascader";
 export * from "./Components/Popover";
+export * from "./Components/SelectItems";
