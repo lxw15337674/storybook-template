@@ -8,6 +8,9 @@ dependencies:
   react-beautiful-dnd:
     specifier: ^13.1.1
     version: 13.1.1(react-dom@17.0.2)(react@17.0.2)
+  react-hotkeys-hook:
+    specifier: ^4.4.1
+    version: 4.4.1(react-dom@17.0.2)(react@17.0.2)
   react-popper:
     specifier: ^2.3.0
     version: 2.3.0(@popperjs/core@2.11.8)(react-dom@17.0.2)(react@17.0.2)
@@ -13432,6 +13435,16 @@ packages:
 
   /react-fast-compare@3.2.2:
     resolution: {integrity: sha512-nsO+KSNgo1SbJqJEYRE9ERzo7YtYbou/OqjSQKxV7jcKox7+usiUVZOAC+XnDOABXggQTno0Y1CpVnuWEc1boQ==}
+    dev: false
+
+  /react-hotkeys-hook@4.4.1(react-dom@17.0.2)(react@17.0.2):
+    resolution: {integrity: sha512-sClBMBioFEgFGYLTWWRKvhxcCx1DRznd+wkFHwQZspnRBkHTgruKIHptlK/U/2DPX8BhHoRGzpMVWUXMmdZlmw==}
+    peerDependencies:
+      react: '>=16.8.1'
+      react-dom: '>=16.8.1'
+    dependencies:
+      react: 17.0.2
+      react-dom: 17.0.2(react@17.0.2)
     dev: false
 
   /react-inspector@6.0.2(react@17.0.2):

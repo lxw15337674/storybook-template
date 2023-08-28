@@ -63,6 +63,7 @@
   },
   "dependencies": {
     "react-beautiful-dnd": "^13.1.1",
+    "react-hotkeys-hook": "^4.4.1",
     "react-popper": "^2.3.0",
     "wwhooks": "^2.0.2"
   }
