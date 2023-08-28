@@ -62,6 +62,8 @@
     "styled-components": "^6.0.7"
   },
   "dependencies": {
+    "react-beautiful-dnd": "^13.1.1",
+    "react-popper": "^2.3.0",
     "wwhooks": "^2.0.2"
   }
 }
