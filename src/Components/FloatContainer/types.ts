@@ -7,6 +7,10 @@ export interface FloatContainerProps extends StyledFloatContainerProps {
 }
 
 export interface StyledFloatContainerProps {
+    /**
+ * How large should the button be?
+ * @default medium
+ */
     left?: number;
     top?: number;
     right?: number;

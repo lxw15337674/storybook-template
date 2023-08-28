@@ -5,12 +5,7 @@ module.exports = {
     es6: true,
     worker: true,
   },
-  extends: [
-    'alloy',
-    'alloy/react',
-    'plugin:react/recommended',
-    'eslint:recommended',
-  ],
+  extends: ['alloy', 'alloy/react', 'plugin:react/recommended', 'eslint:recommended', 'plugin:storybook/recommended'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
