@@ -3,7 +3,6 @@ import React, { Fragment } from 'react';
 import Item from '../Item';
 import { useArray } from 'wwhooks';
 import Cascader from './Cascader';
-import { CascaderOptionValue } from './types';
 
 /**
  *  1.  高度自定义组件，只提供逻辑和并排显示的样式。
@@ -21,7 +20,6 @@ export default {
   tags: ['autodocs'],
 } as Meta<typeof Cascader>;
 
-type Story = StoryObj<typeof Cascader>;
 
 const options = [
   {
