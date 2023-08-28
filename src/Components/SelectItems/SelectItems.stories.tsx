@@ -4,8 +4,6 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 
 /**
- # SelectSelectItemss 可选项
-
 -   这是一个受控组件。
 
 -   这是一个纯逻辑组件，没有样式。

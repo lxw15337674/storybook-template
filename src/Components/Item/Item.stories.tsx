@@ -9,7 +9,7 @@ import React from 'react';
  * 4. 非禁用状态下，聚焦时 className 会增加 hover。
  */
 export default {
-  title: '功能组件/Item 状态组件',
+  title: '样式组件/Item 激活状态组件',
   component: Item,
   parameters: {
     docs: {

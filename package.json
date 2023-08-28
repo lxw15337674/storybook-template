@@ -8,8 +8,7 @@
     "build-storybook": "storybook build",
     "storybook": "storybook dev -p 6006 ",
     "serve-storybook": "serve storybook-static",
-    "build": "father build",
-    "publish": " np --no-cleanup --no-tests"
+    "build": "father build"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",

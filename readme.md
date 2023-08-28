@@ -1,10 +1,32 @@
-# storybook-starter
+# ww-components
 
-A react components library starter kit built with React, TypeScript。
+[文档](https://storybook-template-ten.vercel.app/?path=/docs/configure--docs)
 
-docs: storybook@v7
 
-docs-publish: vercel
+基于平时开发需求，积累的react通用组件。
 
-build: father
+## Getting Started
 
+Install dependencies,
+
+```bash
+$ npm i
+```
+
+Start the dev server,
+
+```bash
+$ npm start
+```
+
+Build documentation,
+
+```bash
+$ npm run docs:build
+```
+
+Build library via `father`,
+
+```bash
+$ npm run build
+```
