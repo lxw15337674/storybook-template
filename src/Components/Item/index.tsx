@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import StyledItem from './styled';
 export interface StyledItemProps extends React.HTMLAttributes<HTMLDivElement> {
-  width?: string;
+  width?: string | number;
   active?: boolean;
   disabled?: boolean;
   children?: React.ReactNode;
