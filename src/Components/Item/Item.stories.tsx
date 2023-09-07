@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react';
-import { Item } from '.';
+import { StatusElement } from '.';
 import React from 'react';
 
 /**
@@ -9,19 +9,18 @@ import React from 'react';
  * 4. 非禁用状态下，聚焦时 className 会增加 hover。
  */
 export default {
-  title: '样式组件/Item 激活状态组件',
-  component: Item,
+  title: '样式组件/StatusElement 激活状态组件',
+  component: StatusElement,
   parameters: {
     docs: {
       toc: true,
     },
   },
   tags: ['autodocs'],
-} as Meta<typeof Item>;
+} as Meta<typeof StatusElement>;
 
-type Story = StoryObj<typeof Item>;
+type Story = StoryObj<typeof StatusElement>;
 
-// More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
 export const Primary: Story = {
   args: {
     children: '文本',
@@ -33,24 +32,31 @@ export function inlineInput() {
   return (
     <div>
       <p>
-        <Item>普通态，此时class为normal,hover时会有hover class</Item>
+        <StatusElement>
+          普通态，此时class为normal,hover时会有hover class
+        </StatusElement>
       </p>
       <p>
-        <Item active>激活态，此时class为active，hover时会有hover class</Item>
+        <StatusElement active>
+          激活态，此时class为active，hover时会有hover class
+        </StatusElement>
       </p>
       <p>
-        <Item disabled>禁用态，此时class为disabled，永远不会有hover class</Item>
+        <StatusElement disabled>
+          禁用态，此时class为disabled，永远不会有hover class
+        </StatusElement>
       </p>
       <p>
-        <Item disabled active>
+        <StatusElement disabled active>
           禁用态优先级最高，所以此时class为disabled
-        </Item>
+        </StatusElement>
       </p>
       <p>
-        <Item active width="100px">
+        <StatusElement active width="100px">
           宽度
-        </Item>
+        </StatusElement>
       </p>
     </div>
   );
 }
+ 

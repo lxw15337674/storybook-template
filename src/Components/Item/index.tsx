@@ -1,13 +1,13 @@
 import React, { useMemo } from 'react';
 import StyledItem from './styled';
-export interface StyledItemProps extends React.HTMLAttributes<HTMLDivElement> {
+export interface StyledStatusElementProps
+  extends React.HTMLAttributes<HTMLDivElement> {
   width?: string | number;
   active?: boolean;
   disabled?: boolean;
-  children?: React.ReactNode;
 }
 
-export const Item = (props: StyledItemProps) => {
+export const StatusElement = (props: StyledStatusElementProps) => {
   const { children, active, disabled, className } = props;
   const [hover, setHover] = React.useState(false);
   const classNames = useMemo(() => {
@@ -34,4 +34,4 @@ export const Item = (props: StyledItemProps) => {
     </StyledItem>
   );
 };
-export default Item;
+export default StatusElement;

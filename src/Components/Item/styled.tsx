@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
-import { StyledItemProps } from '.';
+import { StyledStatusElementProps } from '.';
 
-export const StyledItem = styled.div<StyledItemProps>`
+export const StyledItem = styled.div<StyledStatusElementProps>`
   padding: 8px;
   font-size: 12px;
   cursor: pointer;

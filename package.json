@@ -1,6 +1,6 @@
 {
   "name": "www-components",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "",
   "scripts": {
     "dev": "pnpm run storybook ",
@@ -57,13 +57,13 @@
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "storybook": "^7.3.2",
-    "styled-components": "^6.0.7"
+    "storybook": "^7.3.2"
   },
   "dependencies": {
     "react-beautiful-dnd": "^13.1.1",
     "react-hotkeys-hook": "^4.4.1",
     "react-popper": "^2.3.0",
+    "styled-components": "^6.0.7",
     "wwhooks": "^2.0.2"
   }
 }
