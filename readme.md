@@ -1,4 +1,4 @@
-# ww-components
+# www-components
 
 [文档](https://storybook-template-ten.vercel.app/?path=/docs/configure--docs)
 
